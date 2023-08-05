@@ -11,6 +11,7 @@
     --darker-background-color: #f5f8fa;
     --almost-black: #292f33;
     --border: #e1e8ed;
+    --border-tweet-quote: #01ff38;
     --light-gray: #8899a6;
     --darker-gray: #66757f;
     --lil-darker-gray: #6a7d8c;
@@ -1937,7 +1938,7 @@ emoji-picker {
 }
 .tweet-body-quote {
     background-color: var(--background-color);
-    border: 1px solid var(--border);
+    border: 1px solid var(--border-tweet-quote);
     border-radius: 5px;
     display: block;
     margin: 10px;
